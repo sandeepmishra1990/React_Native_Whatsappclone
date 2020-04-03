@@ -21,14 +21,15 @@ function App() {
         screenOptions={{
           headerTintColor: 'white',
           headerStyle: { backgroundColor: '#075E54' },
-          fontWeight:'bold'
+          fontWeight:'bold',
+          fontFamily:'haveltica',
       }}
       >
         <Stack.Screen name="WhatsApp" >
           {()=>(
         <Tab.Navigator
         tabBarOptions={{
-          labelStyle: { fontSize: 16,fontWeight:'bold' },
+          labelStyle: { fontSize: 14,fontWeight:'bold',fontFamily:'haveltica' },
           tabStyle: {  flex: 1,
             flexDirection: 'column',
             justifyContent: 'space-between' },
